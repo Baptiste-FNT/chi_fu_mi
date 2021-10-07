@@ -1,0 +1,50 @@
+body {
+  background-color: #edf2f4;
+  background:  no-repeat url("../img/wallpaper.jpg");
+  background-size: cover;
+  font-family: "VT323", monospace;
+  overflow-x: hidden;
+}
+
+
+.navbar_color {
+  background-image: url("/img/wave.svg");
+}
+
+.text_color {
+  color: #edf2f4;
+}
+
+.game-choice:hover {
+  transform: scale(0.9);
+  
+}
+
+.game-choice {
+  background: radial-gradient(#000073, #fe50ff);
+  
+  
+}
+
+.text-bg {
+  background: linear-gradient(to bottom right, #000073, #fe50ff);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.text-bg_valide {
+  background: linear-gradient(to bottom right, #0082fd, #e416a2);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+
+/* écran encore plus petit: on cache le menu */
+@media (max-width: 50em) {
+	.mt_test{
+    margin-top: 100%;
+  }
+}
